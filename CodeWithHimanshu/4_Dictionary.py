@@ -33,4 +33,6 @@ del dict3['name']
 print(dict3)
 print(dict2)  # No change in the original.
 
+dict1.__format__()
+
 
