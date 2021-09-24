@@ -23,7 +23,7 @@ for item in list1:
         print(item)
 
 
-# WHILE LOOP
+# WHILE LOOPS
 print("While Loop")
 i = 1
 while i < 5:

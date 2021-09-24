@@ -7,8 +7,6 @@ b - binary
 + - r+w
 a - append
 """
-import flask
-
 filePointer = open("WorkingFIle.txt", 'r')
 content = filePointer.read()
 print(content)
@@ -62,8 +60,7 @@ filePointer.close()
 
 # MORE ON FILES.
 
-
-
-
-
-
+""" 
+seek(),
+tell()
+"""

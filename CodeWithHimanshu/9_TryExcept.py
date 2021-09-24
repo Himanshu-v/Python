@@ -9,4 +9,4 @@ except Exception as e:
     print(e)
 
 
-print("Gets printed even after exception at line 7")
+print("This gets printed even after exception at line 7")

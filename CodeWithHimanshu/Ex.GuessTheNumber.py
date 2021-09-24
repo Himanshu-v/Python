@@ -12,7 +12,7 @@ while retake < 10:
         print("The number is less than the secret number\n")
         continue
     else:
-        print("The number is the secret number\n")
+        print("The number matches the secret number\n")
         break
 
 if retake == 10:

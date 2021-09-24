@@ -1,6 +1,6 @@
 print("Please enter the number of rows")
 r = int(input())
-print("Is pattern unreversed")
+print("Is pattern unreversed?")
 isUnRev = int(input("1 for True, 0 for False\n"))
 
 if isUnRev == 1:
