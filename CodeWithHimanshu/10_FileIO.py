@@ -48,7 +48,7 @@ filePointer.close()
 
 #  Read+Write mode
 filePointer = open("NewFile.txt", 'r+')
-n = filePointer.write("Write in r+ mode line")
+n = filePointer.write("Himanshu will change the world")
 print("read in r+ mode:", filePointer.read())
 print("number of chars added", n)
 print("Handle is at:", filePointer.tell())  # Prints the current handle location
@@ -61,6 +61,16 @@ filePointer.close()
 # MORE ON FILES.
 
 """ 
-seek(),
-tell()
+seek(), See line 55
+tell(), See line 54
 """
+
+#  WITH BLOCK:
+
+with open("NewFile.txt") as r:
+    a = r.readlines()
+    print(a)
+
+f1 = open("NewFile.txt")
+a1 = f1.readline()
+print("f1", a1)
