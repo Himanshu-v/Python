@@ -27,4 +27,4 @@ def nestedfunction():
 
 
 nestedfunction()
-print(sameNameVar1)  # Prints the value defined in nestedFunc2
+print(sameNameVar1)  # Prints the value defined in nestedFunc2 with the 'global' keyword.
