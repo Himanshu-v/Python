@@ -25,8 +25,11 @@ def factorial_recursive_m2(n):
         return n * factorial_recursive_m2(n-1)
 
 
-print('The rec_factorial_m2 of n is:', factorial_recursive_m2(int(input("Enter the number to calculate the factorial"))))
 
+#print('The rec_factorial_m2 of n is:', factorial_recursive_m2(int(input("Enter the number to calculate the factorial\n"))))
+ls = [1,2,3,4,5]
+fact = list(map(factorial_recursive_m2, ls))
+print(fact)
 
 """
 HOW RECURSIVE FACT WORKS

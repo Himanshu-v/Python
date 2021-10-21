@@ -1,14 +1,18 @@
 sameNameVar = 22
 
+print(sameNameVar)
+
 
 def getvar():
     # sameNameVar=45  we cannot assign the value in the same scope before global dec.
     #    print(sameNameVar)  If we try to use the variable before global dec. It gives an error.
     global sameNameVar
+    sameNameVar = 33
     print(sameNameVar)
 
 
 getvar()
+print(sameNameVar)  # Value of the global variable is changed by getVar()
 
 
 def nestedfunction():
