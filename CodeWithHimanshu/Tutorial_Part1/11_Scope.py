@@ -15,7 +15,7 @@ getvar()
 print(sameNameVar)  # Value of the global variable is changed by getVar()
 
 
-def nestedfunction():
+def nested_function():
     sameNameVar1 = 34
 
     def nestedfunc2():
